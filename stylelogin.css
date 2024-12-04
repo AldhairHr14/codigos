@@ -1,0 +1,89 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/background/20230516/original/pngtree-the-entrance-of-an-asian-restaurant-picture-image_2601800.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box, .register-box {
+    background-color:burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: 10px;
+}
+
+.login-box h2, .register-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-box form, .register-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    margin: 10px 0 5px;
+}
+
+.login-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btn-register {
+    text-align: center;
+    display: block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn-register:hover {
+    background-color: #218838;
+}
+
+.back-button {
+    margin-top: 20px; /* Espacio superior */
+    text-align: center; /* Centrar el contenido */
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #ffcc80; /* Color naranja claro */
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+.btn-back:hover {
+    background-color: #ffb74d; /* Color más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación al pasar el mouse */
+}
