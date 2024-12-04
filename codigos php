@@ -1,0 +1,1176 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neko House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>  
+        <div class="logo">
+            <img src="logo de NekoHouse.png" alt="Logo Neko">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="menu.php">Menú</a></li>
+                <li><a href="bebidas.php">Bebidas</a></li>
+                <li><a href="reservas.php">Reservaciones</a></li>
+                <li><a href="ubicaciones.php">Ubicaciones</a></li>
+                <li><a href="logout.php">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <section class="hero">
+        <h1>Bienvenidos a Neko House</h1>
+        <p>¡Descubre la mejor experiencia gastronómica!</p>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.php">Inicio</a>
+        </div>
+        <div class="contact-info">
+            <p>📞 295-7865</p>
+            <p>📧 NekoHouse@gmail.com</p>
+            <p>📍 Condado del Rey</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante NekoHouse</title>
+    <link rel="stylesheet" href="stylemenu.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo NekoHouse" class="logo">
+        Restaurante NekoHouse
+        <a href="index.php" class="btn-home">Página Principal</a>
+
+
+    </header>
+
+    <!--Entradas-->
+    <div class="menu-container">
+        <div class="menu-section">
+            <h2>Entradas</h2>
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="rollitos de primavera.jpg" alt="Rollos Primavera">
+                    <span class="menu-item-name">Rollos Primavera</span>
+                </div>
+                <div class="menu-item-customize">
+                    
+                </div>
+                <span class="menu-item-price">$4.99</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="gyozas.jpg" alt="Gyozas de Cerdo">
+                    <span class="menu-item-name">Gyozas de Cerdo</span>
+                </div>
+                <div class="menu-item-customize">
+                   
+                </div>
+                <span class="menu-item-price">$6.00</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="dim sum.webp" alt="Dim Sum">
+                    <span class="menu-item-name">Dim Sum</span>
+                </div>
+                <div class="menu-item-customize">
+                    
+                </div>
+                <span class="menu-item-price">$3.50</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="wanton.jfif" alt="Wanton ">
+                    <span class="menu-item-name">Wanton frito relleno de camarón</span>
+                </div>
+                <div class="menu-item-customize">
+                    
+                </div>
+                <span class="menu-item-price">$4.50</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="min pao.jfif" alt="Min Pao">
+                    <span class="menu-item-name">Min Pao</span>
+                </div>
+                <div class="menu-item-customize">
+                   
+                </div>
+                <span class="menu-item-price">$2.50</span>
+            </div>
+
+
+        <!--Platos fuertes-->
+        </div>
+        <div class="menu-section">
+            <h2>Platos Fuertes</h2>
+            
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="pollo teriyaki.jfif" alt="Pollo Teriyaki">
+                    <span class="menu-item-name">Pollo Teriyaki</span>
+                </div>
+                <div class="menu-item-customize">
+                    
+                    
+                </div>
+                <span class="menu-item-price">$12.99</span>
+            </div>
+        
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="sashimi de salmon.jfif" alt="Sashimi de Salmón">
+                    <span class="menu-item-name">Sashimi de Salmón</span>
+                </div>
+                <div class="menu-item-customize">
+                    
+                   
+                </div>
+                <span class="menu-item-price">$15.50</span>
+            </div>
+        
+           
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="ramen.jfif" alt="Ramen">
+                    <span class="menu-item-name">Ramen</span>
+                </div>
+                <div class="menu-item-customize">
+                   
+                </div>
+                <span class="menu-item-price">$11.75</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="alo flito.jfif" alt="Arroz frito">
+                    <span class="menu-item-name">Arroz frito</span>
+                </div>
+                <div class="menu-item-customize">
+                  
+                </div>
+                <span class="menu-item-price">$7.50</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="Bún bò huế.jfif" alt="Bún bò huế">
+                    <span class="menu-item-name">Bún bò huế</span>
+                </div>
+                <div class="menu-item-customize">
+                </div>
+                <span class="menu-item-price">$10.00</span>
+            </div>
+        
+        </div>
+        
+        <!--Postres-->
+        </div>
+        <div class="menu-container">
+            <h2>Postres</h2>
+
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="Bingsu_INSET_IG_071223_56714.webp" alt="Bingsu">
+                    <span class="menu-item-name">Bingsu</span>
+                </div>
+                <div class="menu-item-customize">
+
+                </div>
+                <span class="menu-item-price">$3.00</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="Hotteok_Sweet_Korean_Pancakes-portrait.jpg" alt="Hotteok sweet">
+                    <span class="menu-item-name">Hotteok</span>
+                </div>
+                <div class="menu-item-customize">
+                    
+                </div>
+                <span class="menu-item-price">$5.50</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="pastel de luna v2.jfif" alt="Pastel de Luna">
+                    <span class="menu-item-name">Pastel de Luna</span>
+                </div>
+                <div class="menu-item-customize">
+                    
+
+                </div>
+                <span class="menu-item-price">$6.50</span>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-info">
+                    <img src="dango.jfif" alt="Dango">
+                    <span class="menu-item-name">Dango</span>
+                </div>
+                <div class="menu-item-customize">
+                  
+                </div>
+                <span class="menu-item-price">$5.00</span>
+            </div>
+            <h3><p>*Estos postres son por porciones*</p></h3>
+        </div>
+    </div>
+    
+    <footer>
+        © 2024 Restaurante NekoHouse. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas</title>
+    <link rel="stylesheet" href="stylebebidas.css">
+</head>
+<body>
+    <header>
+        <img src="logo de NekoHouse.png" alt="Logo NekoHouse" class="logo">
+        Bebidas a disposición
+        <a href="index.php" class="btn-home">Página Principal</a>
+    </header>
+
+    <div class="caja">
+        <img src="te verde helado.jfif" alt="Té verde helado">
+        <div class="nombre">Té verde helado</div>
+        <div class="precio">3.00 USD</div>
+    </div>
+    <div class="caja">
+        <img src="te masala chai.jfif" alt="Té masala chai">
+        <div class="nombre">Té masala chai</div>
+        <div class="precio">5.00 USD</div>
+     
+    </div>
+    <div class="caja">
+        <img src="ramunes.jfif" alt="ramunes">
+        <div class="nombre">Distintos sabores de ramunes</div>
+        <div class="precio">3.50 USD</div>
+       
+    </div>
+    <div class="caja">
+        <img src="aloe vera.jfif" alt="aloe vera">
+        <div class="nombre">Distintos sabores de Aloe Vera</div>
+        <div class="precio">3.00 USD</div>
+      
+    </div>
+    <div class="caja">
+        <img src="ice matcha latte.jfif" alt="Matcha">
+        <div class="nombre">Ice Matcha Latte</div>
+        <div class="precio">6.00 USD</div>
+        
+    </div>
+    <div class="caja">
+        <img src="cafe helado vientnamita.jfif" alt="cafe helado vientnamita">
+        <div class="nombre">Café helado vientnamita</div>
+        <div class="precio">5.00 USD</div>
+        
+    </div>
+    <div class="caja">
+        <img src="genmaicha.jfif" alt="genmaicha">
+        <div class="nombre">Genmaicha</div>
+        <div class="precio">7.00 USD</div>
+
+    </div>
+    <div class="caja">
+        <img src="thai te.jfif" alt="Té Thai">
+        <div class="nombre">Té Thai</div>
+        <div class="precio">2.50 USD</div>
+
+    </div>
+    
+    
+    <footer>
+        © 2024 Restaurante NekoHouse. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
+
+<?php
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - Neko House</title>
+    <link rel="stylesheet" href="stylereservas.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reserva tu Mesa</h1>
+        <form action="procesar_reserva.php" method="POST">
+            <label for="dia">Día:</label>
+            <input type="date" id="dia" name="dia" required>
+            
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+            
+            <label for="personas">Número de personas:</label>
+            <select id="personas" name="personas" required>
+                <option value="" disabled selected>Seleccionar...</option>
+                <option value="1">1 persona</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="4">4 personas</option>
+                <option value="5">5 personas</option>
+                <option value="6">6 personas</option>
+                <option value="7">7 personas</option>
+                <option value="8">8 personas</option>
+                <option value="9+">Más de 8 personas</option>
+            </select>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="¿Algo especial que debamos saber?"></textarea>
+
+            <button type="submit">Reservar</button>
+        </form>
+
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Neko House</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Registro</h2>
+            <form action="procesar_registro.php" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
+
+                <label for="confirm_password">Confirmar Contraseña</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirmar Contraseña" required>
+
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $nombre = htmlspecialchars($_POST['nombre']);
+    $correo = filter_var($_POST['correo'], FILTER_SANITIZE_EMAIL);
+    $fecha = $_POST['fecha'];
+    $hora = $_POST['hora'];
+    $personas = intval($_POST['personas']);
+
+    // Validación básica
+    if ($nombre && $correo && $fecha && $hora && $personas > 0) {
+        echo "<p>Reservación completada para $nombre el $fecha a las $hora para $personas personas.</p>";
+    } else {
+        echo "<p>Por favor completa todos los campos correctamente.</p>";
+    }
+}
+?>
+<form method="POST">
+    <label>Nombre: <input type="text" name="nombre" required></label><br>
+    <label>Correo: <input type="email" name="correo" required></label><br>
+    <label>Fecha: <input type="date" name="fecha" required></label><br>
+    <label>Hora: <input type="time" name="hora" required></label><br>
+    <label>No. de Personas: <input type="number" name="personas" required></label><br>
+    <button type="submit">Reservar</button>
+</form>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicaciones - Neko House</title>
+    <link rel="stylesheet" href="ubicaciones.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Neko House">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="menu.php">Menú</a></li>
+                <li><a href="ubicaciones.php">Ubicaciones</a></li>
+                <li><a href="reservas.php">Reservación</a></li>
+                <li><a href="login.php">Regístrese</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Ubicaciones</h1>
+    </section>
+
+    <section class="locations">
+        <div class="location-card">
+            <img src="altaplaza.jpg" alt="AltaPlaza Mall">
+            <div class="location-text">
+                <h2>AltaPlaza Mall</h2>
+                <p>AltaPlaza Mall, nivel 1 – Vía Centenario, Condado del Rey, Panamá.</p>
+                <p>Teléfono: +507 207-5224</p>
+            </div>
+        </div>
+
+        <div class="location-card">
+            <img src="towncenter.jpg" alt="Town Center">
+            <div class="location-text">
+                <h2>Town Center</h2>
+                <p>Town Center, nivel 2 – Av. Paseo del Mar, Costa del Este, Panamá.</p>
+                <p>Teléfono: +507 292-9317</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.php">Inicio</a>
+        </div>
+        <div class="contact-info">
+            <p>📞 295-7865</p>
+            <p>📧 NekoHouse@gmail.com</p>
+            <p>📍 Condado del Rey</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<?php
+session_start();
+require 'conexion.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $email = htmlspecialchars($_POST['email']);
+    $password = $_POST['password'];
+
+    // Buscar al usuario en la base de datos
+    $stmt = $conn->prepare("SELECT id_usuario, password FROM usuarios WHERE email = ?");
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+    
+    $stmt->store_result();
+    
+    if ($stmt->num_rows > 0) {
+        $stmt->bind_result($id_usuario, $hashed_password);
+        $stmt->fetch();
+
+        // Verificar la contraseña
+        if (password_verify($password, $hashed_password)) {
+            $_SESSION['user_id'] = $id_usuario; // Guardar ID del usuario en sesión
+            header("Location: index.php"); // Redirigir al index después del inicio de sesión
+            exit;
+        } else {
+            echo "Contraseña incorrecta.";
+        }
+    } else {
+        echo "No existe un usuario con ese correo electrónico.";
+    }
+
+    $stmt->close();
+}
+?>
+
+<?php
+session_start();
+require 'conexion.php'; // Asegúrate de tener un archivo para conectar a la base de datos
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $nombre = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $password = password_hash($_POST['password'], PASSWORD_DEFAULT); // Encriptar la contraseña
+
+    // Verificar si las contraseñas coinciden
+    if ($_POST['password'] !== $_POST['confirm_password']) {
+        die("Las contraseñas no coinciden.");
+    }
+
+    // Insertar en la base de datos
+    $stmt = $conn->prepare("INSERT INTO usuarios (email, password, nombre) VALUES (?, ?, ?)");
+    $stmt->bind_param("sss", $email, $password, $nombre);
+
+    if ($stmt->execute()) {
+        echo "Registro exitoso. Puedes iniciar sesión.";
+        header("Location: login.php");
+        exit;
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+
+    $stmt->close();
+}
+?>
+
+<?php
+session_start();
+require 'conexion.php';
+
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $dia = htmlspecialchars($_POST['dia']);
+    $hora = htmlspecialchars($_POST['hora']);
+    $personas = htmlspecialchars($_POST['personas']);
+    $comentarios = htmlspecialchars($_POST['comentarios']);
+    
+    // Insertar reserva en la base de datos
+    $usuario_id = $_SESSION['user_id'];
+    
+    $stmt = $conn->prepare("INSERT INTO reservas (dia, hora, personas, comentarios, usuario_id) VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssisi", $dia, $hora, $personas, $comentarios, $usuario_id);
+
+    if ($stmt->execute()) {
+        echo "Reserva realizada con éxito.";
+        header("Location: index.php");
+        exit;
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+
+    $stmt->close();
+}
+?>
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Ajusta según el diseño */
+
+    
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(https://tazzcdn.akamaized.net/uploads/cover/asian_cov.jpg); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0 0 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e5533d;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     background-color:darksalmon;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:bisque;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #555;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.pagar-button {
+    background-color: #ffc107;
+    margin-top: 10px;
+}
+
+.pagar-button:hover {
+    background-color: #e0a800;
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: url('https://img.freepik.com/fotos-premium/restaurante-japones-seccion-mostrador-pequeno-restaurante-tipico-estilo-tradicional-japones_873668-5085.jpg')no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    color: #333;
+}
+
+header {
+    background-color: rgba(210, 77, 87, 0.9); /* Color con opacidad para destacar sobre el fondo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.menu-section {
+    margin-bottom: 20px;
+}
+
+.menu-section h2 {
+    color: #d24d57;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.menu-item-info {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-name {
+    font-weight: bold;
+}
+
+.menu-item-customize {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-price {
+    color: #d24d57;
+    font-weight: bold;
+    flex: 1;
+    text-align: right;
+}
+
+.menu-item input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu-item button {
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item button:hover {
+    background-color: #d4ac0d;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+header .btn-home {
+    position: absolute;
+    right: 20px; /* Posiciona el botón en la esquina superior derecha */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f1c40f; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+header .btn-home:hover {
+    background-color: #d4ac0d; /* Color más oscuro al pasar el cursor */
+}
+
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/background/20230516/original/pngtree-the-entrance-of-an-asian-restaurant-picture-image_2601800.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box, .register-box {
+    background-color:burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: 10px;
+}
+
+.login-box h2, .register-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-box form, .register-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    margin: 10px 0 5px;
+}
+
+.login-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btn-register {
+    text-align: center;
+    display: block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn-register:hover {
+    background-color: #218838;
+}
+
+.back-button {
+    margin-top: 20px; /* Espacio superior */
+    text-align: center; /* Centrar el contenido */
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #ffcc80; /* Color naranja claro */
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+.btn-back:hover {
+    background-color: #ffb74d; /* Color más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación al pasar el mouse */
+}
+
+
+body {
+    font-family: sans-serif, sans-serif;
+    background: url('https://img.freepik.com/fotos-premium/restaurante-japones-seccion-mostrador-pequeno-restaurante-tipico-estilo-tradicional-japones_873668-5085.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+h1 {
+    color: wheat; /* Solo los <h1> tienen color blanco */
+}
+h2{
+    color:wheat
+}
+.caja {
+    background-color: cornsilk;
+    border: 1px solid #070707;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center; /* Asegura el texto centrado */
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos hijos */
+}
+
+.caja img {
+    max-width: 100%;
+    border-radius: 20px;
+    display: block; /* Asegura que la imagen sea tratada como bloque */
+    margin: 0 auto; /* Centra la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.nombre {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.precio {
+    font-size: 1.2em;
+    color: rgb(15, 15, 14);
+    margin: 10px 0;
+}
+.boton {
+    background-color: #0a0b0c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.boton:hover {
+    background-color: #292b2b;
+}
+header {
+    background-color: rgba(210, 77, 87, 0.9); /* Color con opacidad para destacar sobre el fondo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+header .btn-home {
+    position: absolute;
+    right: 20px; /* Posiciona el botón en la esquina superior derecha */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f1c40f; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+header .btn-home:hover {
+    background-color: #d4ac0d; /* Color más oscuro al pasar el cursor */
+}
+
